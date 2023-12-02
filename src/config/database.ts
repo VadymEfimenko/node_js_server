@@ -1,4 +1,3 @@
-// src/config/database.ts
 import { Sequelize } from '@sequelize/core';
 import {Course} from "../models/Course";
 import {Student} from "../models/Student";

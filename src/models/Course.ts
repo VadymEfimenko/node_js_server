@@ -19,7 +19,6 @@ export class Course extends Model<InferAttributes<Course>, InferCreationAttribut
     })
     name!: string;
 
-    // Связь "многие ко многим" с моделью Student через автоматически созданную таблицу
     @BelongsToMany(() => Student, {
         through: 'CourseStudent',
         inverse: {

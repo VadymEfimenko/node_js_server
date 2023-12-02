@@ -1,4 +1,3 @@
-// src/app.ts
 import express from 'express';
 import sequelize from './config/database';
 import studentRoutes from "./routes/studentRoutes";

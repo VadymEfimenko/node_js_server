@@ -3,7 +3,6 @@ import {enrollStudentToCourse, rejectStudentCourse} from '../controllers/Student
 
 const router = Router();
 
-// Маршрут для записи студента на курс
 router.post('/api/enroll', enrollStudentToCourse);
 router.post('/api/reject', rejectStudentCourse);
 export default router;

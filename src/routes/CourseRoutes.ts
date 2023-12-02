@@ -9,10 +9,8 @@ import {
 
 const router = Router();
 
-// Маршрут для создания курса
 router.post('/api/courses', createCourse);
 
-// Маршрут для получения всех курсов
 router.get('/api/courses', getAllCourses);
 
 router.get('/api/courses/:courseId', findCourseById);

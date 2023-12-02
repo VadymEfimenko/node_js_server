@@ -10,6 +10,5 @@ export class Student extends Model<InferAttributes<Student>, InferCreationAttrib
   })
   fullName!: string;
 
-  // Связь "многие ко многим" с моделью Course через автоматически созданную таблицу
   declare courses?: NonAttribute<Course[]>;
 }

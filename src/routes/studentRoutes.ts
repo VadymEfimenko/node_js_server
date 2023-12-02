@@ -1,4 +1,3 @@
-// src/routes/studentRoutes.ts
 import { Router } from 'express';
 import { createStudent, getAllStudents } from '../controllers/studentController';
 
